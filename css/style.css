@@ -21,9 +21,9 @@ html, body {
   @font-face {
     font-family: gothican;
     src: url("../fonts/gothican.ttf");
-  }
+  } 
 
- /* Index */ 
+  /* Media queries */
 
  @media screen and (max-width: 375px) {
 
@@ -69,6 +69,8 @@ html, body {
     }
  }
 
+ /* Index */
+
 .areaGridIndex {
     display: grid;
     grid-template-areas: 
@@ -98,12 +100,14 @@ html, body {
     justify-content: center;
     font-size: 35px;
     margin: 0;
+    padding-top: 10px;
 }
 
 .nav a { 
     color: #7c0003;
     text-decoration: none;
     padding: 10px;
+    background: rgb(0,0,0);
 }
 
 .infoTot {
@@ -220,6 +224,13 @@ html, body {
     font-weight: 600;
     color: #7c0003;
     background-color: black;
+    border-color: #7c0003;
+    transition-duration: 0.5s;
+}
+
+.ticketButton:hover {
+    background-color: #7c0003;
+    color: black;
 }
 
 .datesContainer {
@@ -253,7 +264,14 @@ html, body {
     font-weight: 600;
     color: #7c0003;
     background-color: black;
+    border-color: #7c0003;
+    transition-duration: 0.5s;
 }
+
+.commentButton:hover {
+    background-color: #7c0003;
+    color: black;
+} 
 
 /* Footer */
 
