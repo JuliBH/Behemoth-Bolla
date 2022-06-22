@@ -1,0 +1,291 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: white;
+    background-color: black;
+}
+
+@font-face {
+    font-family: fontLogo;
+    src: url("../fonts/fontLogo.ttf");
+  }
+
+@font-face {
+    font-family: gothferatu;
+    src: url("../fonts/gothferatu.ttf");
+  }
+
+  @font-face {
+    font-family: gothican;
+    src: url("../fonts/gothican.ttf");
+  }
+
+ /* Index */ 
+
+ @media screen and (max-width: 375px) {
+
+    /* Media query Index*/
+
+    .headerImage {
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutTitle {
+        text-align: center;
+        padding-left: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    /* Media query Galery*/
+
+    .photosTitle {
+        text-align: center;
+    }
+
+    .galeryContainer {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .videoContainer {
+        flex-direction: column;
+    }
+
+    .galeryPhotos {
+        padding: 15px;
+    }
+ }
+
+.areaGridIndex {
+    display: grid;
+    grid-template-areas: 
+        "headerImage"
+        "nav"
+        "infoTot"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1px auto 7%;
+}
+
+.headerImage {
+    grid-area: headerImage;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.nav {
+    grid-area: nav;
+    font-family: gothferatu;
+    color: #7c0003;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 0;
+}
+
+.nav a { 
+    color: #7c0003;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.infoTot {
+    grid-area: infoTot;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+.aboutTitle { 
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.infoBand {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Discografía */
+
+.albumTitle {
+    font-family: 'Tiro Gurmukhi', serif;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.albumPhotos {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.albumPhotosTitle {
+    text-decoration: none;
+    color: #7c0003;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.albumsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 70px;
+}
+
+.caption { 
+    text-align: center;
+}
+
+/* Galería */
+
+.areaGridImg {
+    display: grid;
+    grid-template-areas: 
+    "headerImage"
+    "nav"
+    "photosTitle"
+    "galeryContainer"
+    "videoContainer"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr 1fr 1fr 5fr 5fr 1fr;
+}
+
+.photosTitle {
+    grid-area: photosTitle;
+    font-family: 'Tiro Gurmukhi', serif;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.galeryContainer {
+    grid-area: galeryContainer;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.videoContainer {
+    grid-area: videoContainer;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.galeryVideo {
+    border: none;
+}
+
+/* Tour */
+
+.datesTitle {
+    font-family: 'Tiro Gurmukhi', serif;
+    padding-left: 5px;
+    font-size: 40px;
+}
+
+.datesTickets {
+    font-family: 'Tiro Gurmukhi', serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.ticketButton {
+    font-family: gothican;
+    font-size: 25px;
+    font-weight: 600;
+    color: #7c0003;
+    background-color: black;
+}
+
+.datesContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Contacto */
+
+.contactTitle {
+    font-family: 'Tiro Gurmukhi', serif;
+    padding-left: 5px;
+    font-size: 40px;
+}
+
+.forms {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.commentButton {
+    font-family: gothican;
+    font-size: 25px;
+    font-weight: 600;
+    color: #7c0003;
+    background-color: black;
+}
+
+/* Footer */
+
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: #7c0003;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    background-color: #080808;
+}
+
+.icons {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #7c0003;
+    background-color: #080808;
+}
+
+.icons {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+  
