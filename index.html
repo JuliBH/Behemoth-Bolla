@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/300101ec72.js" crossorigin="anonymous"></script>
     <title>Index</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    <div class="areaGridIndex">
+    <div>
     <header>
-            <img class="headerImage" src="galeryPhotos/Headerimage.jpg" alt="Foto de la banda"/>
+            <img class="img-fluid" src="galeryPhotos/Headerimage.jpg" alt="Foto de la banda"/>
+    <div class="container">       
+     <div class="row justify-content-center align-items-center">   
+    <div class="col-8 text-center">        
      <nav>
-        <ul class="nav">
-            <li><a href="index.html">Inicio</a> </li>
-            <li><a href="pages/albums.html">Discografía</a></li>
-            <li><a href="pages/img.html">Galería</a></li>
-            <li><a href="pages/tour.html">Tour</a></li>
-            <li><a href="pages/contact.html">Contacto</a></li>
+        <ul>
+            <li><a class="nav" href="index.html">Inicio</a> </li>
+            <li><a class="nav" href="pages/albums.html">Discografía</a></li>
+            <li><a class="nav" href="pages/img.html">Galería</a></li>
+            <li><a class="nav" href="pages/tour.html">Tour</a></li>
+            <li><a class="nav" href="pages/contact.html">Contacto</a></li>
         </ul>
     </nav>
+</div>
+</div> 
     </header>
+</div>
 
-    <section class="infoTot">
-        <h2 class="aboutTitle">Sobre la banda:</h2>
+    <section class="container text-white">
+        <h1 class="h1">Sobre la banda:</h1>
+            <div class="pt-3">
         <p class="infoBand">Behemoth es una banda de blackened death metal formada en octubre de 1991 en Gdańsk, Polonia. 
             El nombre del grupo es el de un demonio de la mitología hebrea, llamado Behemot. 
             En los primeros años su música se calificaba como black metal, desde 1994 como pagan metal, usando grabaciones de guitarra acústica. 
@@ -52,9 +65,10 @@
             Nergal dejó el hospital en enero y se recupera de su enfermedad. </p>  
             
         <p class="infoBand">Hoy en día los miembros oficiales de la banda son Nergal (voz, guitarra), Seth (guitarra), Orion (bajo) e Inferno (batería).</p>    
+     </div>
     </section>
 
-<footer>
+<footer class="pl-3">
     <p>Página no oficial de Behemoth. Copyright Julieta Bolla©</p>
     <div class="icons">
         <i class="fa-brands fa-facebook-square"></i>
@@ -62,7 +76,6 @@
         <i class="fa-brands fa-twitter-square"></i>
     </div>
 </footer>
-</div>
 
 </body>
 </html>

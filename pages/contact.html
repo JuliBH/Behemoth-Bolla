@@ -4,67 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/300101ec72.js" crossorigin="anonymous"></script>
     <title>Contacto</title>
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/jquery.slim.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
+  <div>
+    <header>
+            <img class="img-fluid" src="../galeryPhotos/Headerimage.jpg" alt="Foto de la banda"/>
+    <div class="container">       
+     <div class="row justify-content-center align-items-center">   
+    <div class="col-8 text-center">        
+     <nav>
+        <ul>
+            <li><a class="nav" href="../index.html">Inicio</a> </li>
+            <li><a class="nav" href="albums.html">Discografía</a></li>
+            <li><a class="nav" href="img.html">Galería</a></li>
+            <li><a class="nav" href="tour.html">Tour</a></li>
+            <li><a class="nav" href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+</div> 
+    </header>
+</div>
 
-  <header>
-    <img class="headerImage" src="../galeryPhotos/Headerimage.jpg" alt="Foto de la banda"/>
-<nav>
-  <ul class="nav">
-      <li><a href="../index.html">Inicio</a> </li>
-      <li><a href="albums.html">Discografía</a></li>
-      <li><a href="img.html">Galería</a></li>
-      <li><a href="tour.html">Tour</a></li>
-      <li><a href="contact.html">Contacto</a></li>
-  </ul>
-</nav>
-</header>
+  <section class="text-white container">
+    <h1 class="contactTitle">Contactanos:</h1>
+      <form class="row g-3 pt-3">
 
-  <section class="forms">
-    <h2 class="contactTitle">Contactanos:</h2>
+      <div class="col-md-6">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required>
+      </div>
 
-      <form>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre"><br>
-        <label for="apellido">Apellido:</label><br>
-        <input type="text" id="apellido" name="aoellido"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
+      <div class="col-md-6">
+        <label for="apellido" class="form-label">Apellido:</label>
+        <input type="text" class="form-control" id="apellido" name="apellido" required>
+      </div>
       
+      <div class="col-md-8 pt-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="text" class="form-control" id="email" name="email" required>
+      </div>
 
-      <p>Sexo:</p> 
-      <select name="sexo" id="sexo">
-        <option value="h">Hombre</option>
-        <option value="m">Mujer</option>
-        <option value="o">Otro</option>
-      </select>
+      <div class="dropdown col-md-4 pt-3">
+        <p>Sexo:</p> 
+        <select name="sexo" id="sexo" required>
+          <option value="h">Hombre</option>
+          <option value="m">Mujer</option>
+          <option value="o">Otro</option>
+        </select>
+      </div>
 
-      <p>Intereses:</p>
-      
-        <input type="checkbox" id="musica" name="musica" value="Musica">
-        <label for="musica">Música</label>
-        <input type="checkbox" id="videos" name="videos" value="Videos">
-        <label for="videos">Videos</label>
-        <input type="checkbox" id="conciertos" name="conciertos" value="Conciertos">
-        <label for="conciertos">Conciertos</label>
-        <input type="checkbox" id="merch" name="merch" value="Merchandising">
-        <label for="merch">Merchandising</label>
-     
+    <div class="col">
+      <p class="pt-3">Intereses:</p>
 
-      <label>Comentarios:</label>
+      <div class="d-flex flex-column form-check pl-5">
+        <input class="form-check-input" type="checkbox" id="musica" name="musica" value="Musica">
+        <label form-check-label for="musica">Música</label>
+      </div>
 
-      <textarea id="comentarios" name="comentarios" rows="10" cols="50">
-      </textarea>
+      <div class="d-flex flex-column form-check pl-5">
+        <input class="form-check-input" type="checkbox" id="videos" name="videos" value="Videos">
+        <label form-check-label for="videos">Videos</label>
+      </div>
 
-      <input type="submit" class="commentButton">
+      <div class="d-flex flex-column form-check pl-5">
+        <input class="form-check-input" type="checkbox" id="conciertos" name="conciertos" value="Conciertos">
+        <label form-check-label for="conciertos">Conciertos</label>
+      </div>
+
+      <div class="d-flex flex-column form-check pl-5">
+        <input class="form-check-input" type="checkbox" id="merch" name="merch" value="Merchandising">
+        <label form-check-label for="merch">Merchandising</label>
+      </div>
+
+    </div>
+
+      <div class="col-md-12 pt-3">
+        <label for="comentarios" class="form-label">Comentarios:</label>
+        <textarea class="form-control" id="comentarios" rows="10"></textarea>
+      </div>
+
+      <div class="pt-3">
+      <input type="submit" class="btn btn-outline-danger">
+    </div>
 
     </form>
   </section>
 
-  <footer>
+  <footer class="pl-3 pt-3">
     <p>Página no oficial de Behemoth. Copyright Julieta Bolla©</p>
     <div class="icons">
         <i class="fa-brands fa-facebook-square"></i>
