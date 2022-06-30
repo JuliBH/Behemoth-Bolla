@@ -12,53 +12,14 @@ body {
     src: url("../fonts/gothican.ttf");
   } 
 
-  /* Sobreescribo Bootstrap */ 
-
-  .nav {
-    color: #7c0003;
-  }
-
-  li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 20px;
-    font-family: gothferatu;
-    font-size: 30px;
-  }
-
-  h1 {
-    font-family: 'Tiro Gurmukhi', serif;
-  }
-
-  p {
-    font-family: 'Tiro Gurmukhi', serif;
-    font-size: 20px;
-  }
-
-  label {
-    font-family: 'Tiro Gurmukhi', serif;
-    font-size: 20px;
-  }
-
-  footer {
-    color: #7c0003;
-  }
-
-  .icons {
-    font-size: 30px;
-  }
-
   /* Media queries */
 
  @media screen and (max-width: 375px) {
-
-    /* Media query Index*/
 
     .headerImage {
         height: 350px;
         object-fit: cover;
     }
-
 
     footer {
         text-align: center;
@@ -84,39 +45,71 @@ body {
     }
  }
 
- /* Discografía */
+
+  /* Sobreescribo Bootstrap Index */ 
+
+  .nav {
+    color: #7c0003;
+  }
+
+  .nav:hover {
+    color: #c30005;
+    transition-duration: 0.5s;
+    text-decoration: none;
+  }
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+    font-family: gothferatu;
+    font-size: 30px;
+  }
+
+  h1 {
+    font-family: 'Tiro Gurmukhi', serif;
+  }
+
+  p {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 20px;
+  }
+
+  label {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 20px;
+  }
+
+  /* Sobreescribo Bootstrap Footer */ 
+
+  footer {
+    color: #7c0003;
+    padding-top: 1rem;
+  }
+
+  .icons {
+    font-size: 30px;
+  }
+
+ /* Sobreescribo Bootstrap Discografía */ 
 
 .albumTitle {
     font-family: 'Tiro Gurmukhi', serif;
-    padding-left: 20px;
     font-size: 40px;
-    color: white;
-}
-
-.albumPhotos {
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 20px;
 }
 
 .albumPhotosTitle {
     text-decoration: none;
     color: #7c0003;
     font-family: 'Tiro Gurmukhi', serif;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
-    
 }
 
-.albumsContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding-left: 70px;
-}
-
-.caption { 
-    text-align: center;
+.albumPhotosTitle:hover {
+    color: #c30005;
+    transition-duration: 0.5s;
+    text-decoration: none;
 }
 
 /* Galería */
@@ -165,16 +158,9 @@ body {
 
 .datesTitle {
     font-family: 'Tiro Gurmukhi', serif;
-    padding-left: 5px;
+    padding-left: 20px;
+    padding-bottom: 15px;
     font-size: 40px;
-    color: white;
-}
-
-.datesTickets {
-    font-family: 'Tiro Gurmukhi', serif;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
     color: white;
 }
 
@@ -195,7 +181,14 @@ body {
 
 .datesContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-bottom: solid;
+    font-family: 'Tiro Gurmukhi', serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    font-size: 20px;
+    color: white;
 }
 
 .buttonContainer {
@@ -203,6 +196,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 
 
 
