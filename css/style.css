@@ -32,17 +32,19 @@ body {
     }
 
     .galeryContainer {
-        display: grid;
-        flex-direction: column;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .galeryPhotos {
+        width: 300px;
+        height: 200px;
     }
 
     .videoContainer {
         flex-direction: column;
     }
 
-    .galeryPhotos {
-        padding: 15px;
-    }
  }
 
 
@@ -80,6 +82,10 @@ body {
     font-size: 20px;
   }
 
+  .dropButton {
+    background-color: #7c0003;
+  }
+
   /* Sobreescribo Bootstrap Footer */ 
 
   footer {
@@ -89,6 +95,11 @@ body {
 
   .icons {
     font-size: 30px;
+  }
+
+  .icons:hover {
+    color: #c30005;
+    transition-duration: 0.5s;
   }
 
  /* Sobreescribo Bootstrap Discografía */ 
@@ -110,6 +121,11 @@ body {
     color: #c30005;
     transition-duration: 0.5s;
     text-decoration: none;
+}
+
+.albumImg {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Galería */
@@ -140,7 +156,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 50px;
 }
 
 .videoContainer {
