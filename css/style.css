@@ -47,7 +47,6 @@ body {
 
  }
 
-
   /* Sobreescribo Bootstrap Index */ 
 
   .nav {
@@ -211,7 +210,3 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
-
-
-
-
