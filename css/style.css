@@ -49,16 +49,6 @@ body {
 
   /* Sobreescribo Bootstrap Index */ 
 
-  .nav {
-    color: #7c0003;
-  }
-
-  .nav:hover {
-    color: #c30005;
-    transition-duration: 0.5s;
-    text-decoration: none;
-  }
-
   li {
     display: inline-block;
     list-style-type: none;
@@ -76,11 +66,6 @@ body {
     font-size: 20px;
   }
 
-  label {
-    font-family: 'Tiro Gurmukhi', serif;
-    font-size: 20px;
-  }
-
   .dropButton {
     background-color: #7c0003;
   }
@@ -92,34 +77,11 @@ body {
     padding-top: 1rem;
   }
 
-  .icons {
-    font-size: 30px;
-  }
-
-  .icons:hover {
-    color: #c30005;
-    transition-duration: 0.5s;
-  }
-
  /* Sobreescribo Bootstrap Discografía */ 
 
 .albumTitle {
     font-family: 'Tiro Gurmukhi', serif;
     font-size: 40px;
-}
-
-.albumPhotosTitle {
-    text-decoration: none;
-    color: #7c0003;
-    font-family: 'Tiro Gurmukhi', serif;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.albumPhotosTitle:hover {
-    color: #c30005;
-    transition-duration: 0.5s;
-    text-decoration: none;
 }
 
 .albumImg {
@@ -157,15 +119,15 @@ body {
     flex-wrap: wrap;
 }
 
+.galeryVideo {
+  border: none;
+}
+
 .videoContainer {
     grid-area: videoContainer;
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
-}
-
-.galeryVideo {
-    border: none;
 }
 
 /* Tour */
@@ -176,21 +138,6 @@ body {
     padding-bottom: 15px;
     font-size: 40px;
     color: white;
-}
-
-.ticketButton {
-    font-family: gothican;
-    font-size: 25px;
-    font-weight: 600;
-    color: #7c0003;
-    background-color: black;
-    border-color: #7c0003;
-    transition-duration: 0.5s;
-}
-
-.ticketButton:hover {
-    background-color: #7c0003;
-    color: black;
 }
 
 .datesContainer {
