@@ -70,10 +70,6 @@ body {
     background-color: #7c0003;
   }
 
-  .dropButton {
-    background-color: #7c0003;
-  }
-
   /* Sobreescribo Bootstrap Footer */ 
 
   footer {
@@ -86,11 +82,6 @@ body {
 .albumTitle {
     font-family: 'Tiro Gurmukhi', serif;
     font-size: 40px;
-}
-
-.albumImg {
-    display: block;
-    margin: 0 auto;
 }
 
 .albumImg {
@@ -115,9 +106,6 @@ body {
 
 .photosTitle {
     grid-area: photosTitle;
-    font-family: 'Tiro Gurmukhi', serif;
-    padding-left: 20px;
-    font-size: 40px;
     color: white;
 }
 
@@ -142,22 +130,16 @@ body {
 /* Tour */
 
 .datesTitle {
-    font-family: 'Tiro Gurmukhi', serif;
-    padding-left: 20px;
-    padding-bottom: 15px;
-    font-size: 40px;
-    color: white;
+  color: white;
 }
 
 .datesContainer {
     display: flex;
     justify-content: space-between;
     border-bottom: solid;
-    font-family: 'Tiro Gurmukhi', serif;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
-    font-size: 20px;
     color: white;
 }
 
