@@ -70,6 +70,10 @@ body {
     background-color: #7c0003;
   }
 
+  .dropButton {
+    background-color: #7c0003;
+  }
+
   /* Sobreescribo Bootstrap Footer */ 
 
   footer {
@@ -77,11 +81,28 @@ body {
     padding-top: 1rem;
   }
 
+<<<<<<< HEAD
+=======
+  .icons {
+    font-size: 30px;
+  }
+
+  .icons:hover {
+    color: #c30005;
+    transition-duration: 0.5s;
+  }
+
+>>>>>>> practicas
  /* Sobreescribo Bootstrap Discografía */ 
 
 .albumTitle {
     font-family: 'Tiro Gurmukhi', serif;
     font-size: 40px;
+}
+
+.albumImg {
+    display: block;
+    margin: 0 auto;
 }
 
 .albumImg {
@@ -117,10 +138,13 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+<<<<<<< HEAD
 }
 
 .galeryVideo {
   border: none;
+=======
+>>>>>>> practicas
 }
 
 .videoContainer {
