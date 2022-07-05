@@ -1,0 +1,10 @@
+.nav {
+    color: #7c0003;
+
+        &:hover {
+            color: #c30005;
+            transition-duration: 0.5s;
+            text-decoration: none;
+          }
+          
+  }

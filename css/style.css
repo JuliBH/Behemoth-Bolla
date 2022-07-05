@@ -80,19 +80,7 @@ body {
     color: #7c0003;
     padding-top: 1rem;
   }
-
-<<<<<<< HEAD
-=======
-  .icons {
-    font-size: 30px;
-  }
-
-  .icons:hover {
-    color: #c30005;
-    transition-duration: 0.5s;
-  }
-
->>>>>>> practicas
+  
  /* Sobreescribo Bootstrap Discografía */ 
 
 .albumTitle {
@@ -138,13 +126,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-<<<<<<< HEAD
 }
 
 .galeryVideo {
   border: none;
-=======
->>>>>>> practicas
 }
 
 .videoContainer {
