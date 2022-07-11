@@ -1,5 +1,8 @@
 body {
     background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -57,30 +60,14 @@ body {
     font-size: 30px;
   }
 
-  h1 {
-    font-family: 'Tiro Gurmukhi', serif;
-  }
-
-  p {
-    font-family: 'Tiro Gurmukhi', serif;
-    font-size: 20px;
-  }
-
   .dropButton {
     background-color: #7c0003;
   }
-
-  /* Sobreescribo Bootstrap Footer */ 
-
-  footer {
-    color: #7c0003;
-    padding-top: 1rem;
-  }
   
+
  /* Sobreescribo Bootstrap Discografía */ 
 
 .albumTitle {
-    font-family: 'Tiro Gurmukhi', serif;
     font-size: 40px;
 }
 

@@ -1,9 +1,42 @@
-.icons {
-    font-size: 30px;
+.footerText {
+  color: #7c0003;
+}
 
-        &:hover {
-            color: #c30005;
-            transition-duration: 0.5s;
-          }
-
+$redes: (
+    facebook: #3b5998,
+    instagram: #7f1734,
+    twitter: #1DA1F2
+  );
+  
+  @each $red, $color in $redes {
+    .btn--#{$red} {
+        color: $color;
+        font-size: 2rem;
+    }
   }
+
+  .btn--facebook {
+
+    &:hover {
+        color: #005aff;
+        transition-duration: 0.5s;
+    }
+  }
+
+  .btn--instagram {
+
+    &:hover {
+        color: #ff0048;
+        transition-duration: 0.5s;
+    }
+  }
+
+  .btn--twitter {
+
+    &:hover {
+        color: #009dff;
+        transition-duration: 0.5s;
+    }
+  }
+
+

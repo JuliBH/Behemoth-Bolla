@@ -1,0 +1,28 @@
+@mixin clickButton ($font-family, $color, $background-color, $border-color) {
+    font-family: $font-family;
+    color: $color;
+    background-color: $background-color;
+    border-color: $border-color;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.ticketButton {
+    @include clickButton('gothican', #7c0003, black, #7c0003);
+
+    &:hover {
+        background-color: #7c0003;
+        color: black;
+        transition-duration: 0.5s;
+    }
+}
+
+.contactSend {
+    @include clickButton('gothican', #7c0003, black, #7c0003);
+
+    &:hover {
+        background-color: #7c0003;
+        color: black;
+        transition-duration: 0.5s;
+    }
+}
