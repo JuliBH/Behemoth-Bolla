@@ -1,8 +1,8 @@
 {
-  "author": "Nombre e Email",
-  "description": "Descripcion de mi Package",
+  "author": "Julieta Bolla",
+  "description": "Fanpage de la banda Behemoth",
   "license": "MIT",
-  "name": "coder-29285",
+  "name": "behemoth",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
     "build:css": "node-sass --output-style compressed scss/main.scss css/estilos.css"

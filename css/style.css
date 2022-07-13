@@ -28,6 +28,11 @@ body {
         text-align: center;
     }
 
+    .dropButton {
+        margin-left: 14rem;
+        margin-top: 5px;
+    }
+
     /* Media query Galery*/
 
     .photosTitle {
@@ -46,6 +51,13 @@ body {
 
     .videoContainer {
         flex-direction: column;
+    }
+
+    /* Media query Contact*/
+
+    .contactSend {
+        position: relative;
+        left: 17rem;
     }
 
  }
@@ -74,6 +86,12 @@ body {
 .albumImg {
     display: block;
     margin: 0 auto;
+}
+
+a {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 /* Galería */
@@ -135,3 +153,18 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* Contacto */
+
+.formText {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 20px;
+}
+
+.contactSend {
+    position: relative;
+    right:-64rem;
+}
+
+
+
