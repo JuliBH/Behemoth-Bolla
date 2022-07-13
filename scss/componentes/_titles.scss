@@ -1,7 +1,16 @@
+h1 {
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+p {
+    @extend h1;
+    font-size: 20px;
+}
+
 .albumPhotosTitle {
+    @extend h1;
     text-decoration: none;
     color: #7c0003;
-    font-family: 'Tiro Gurmukhi', serif;
     font-size: 1rem;
     font-weight: 600;
 
@@ -12,3 +21,8 @@
         }
 
 }
+
+
+
+
+

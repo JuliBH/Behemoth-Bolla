@@ -1,5 +1,8 @@
 body {
     background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -25,6 +28,11 @@ body {
         text-align: center;
     }
 
+    .dropButton {
+        margin-left: 14rem;
+        margin-top: 5px;
+    }
+
     /* Media query Galery*/
 
     .photosTitle {
@@ -45,6 +53,13 @@ body {
         flex-direction: column;
     }
 
+    /* Media query Contact*/
+
+    .contactSend {
+        position: relative;
+        left: 17rem;
+    }
+
  }
 
   /* Sobreescribo Bootstrap Index */ 
@@ -57,36 +72,26 @@ body {
     font-size: 30px;
   }
 
-  h1 {
-    font-family: 'Tiro Gurmukhi', serif;
-  }
-
-  p {
-    font-family: 'Tiro Gurmukhi', serif;
-    font-size: 20px;
-  }
-
   .dropButton {
     background-color: #7c0003;
   }
-
-  /* Sobreescribo Bootstrap Footer */ 
-
-  footer {
-    color: #7c0003;
-    padding-top: 1rem;
-  }
   
+
  /* Sobreescribo Bootstrap Discografía */ 
 
 .albumTitle {
-    font-family: 'Tiro Gurmukhi', serif;
     font-size: 40px;
 }
 
 .albumImg {
     display: block;
     margin: 0 auto;
+}
+
+a {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 /* Galería */
@@ -148,3 +153,18 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* Contacto */
+
+.formText {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 20px;
+}
+
+.contactSend {
+    position: relative;
+    right:-64rem;
+}
+
+
+
