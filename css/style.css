@@ -57,7 +57,7 @@ body {
 
     .contactSend {
         position: relative;
-        left: 17rem;
+        left: 15rem;
     }
 
  }
@@ -74,6 +74,11 @@ body {
 
   .dropButton {
     background-color: #7c0003;
+  }
+
+  .indexText {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   
 
@@ -132,7 +137,29 @@ a {
     padding-top: 50px;
 }
 
+img {
+    cursor: pointer;
+}
+
+figure {
+    overflow: hidden;
+}
+
+.galeryImg #zoomIn img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.galeryImg #zoomIn:hover img {
+    transform: scale(1.5);
+}
+
 /* Tour */
+
+.tourText {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
 .datesTitle {
   color: white;
@@ -156,6 +183,11 @@ a {
 
 /* Contacto */
 
+.contactText {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
 .formText {
     font-family: 'Tiro Gurmukhi', serif;
     font-size: 20px;
@@ -163,7 +195,7 @@ a {
 
 .contactSend {
     position: relative;
-    right:-64rem;
+    right:-85rem;
 }
 
 
